@@ -1,0 +1,841 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>10 Aplicacion</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+ <!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app10.min.css">
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+ 
+ <body onLoad="MM_preloadImages('imagenes/matar.jpg','imagenes/d5811456e16c90d3bf71a8fdaebf840b.png','imagenes/muestra3.JPG','imagenes/received_1208076599304283.jpeg','imagenes/taller3.JPG','imagenes/Áreas Verdes.jpeg','imagenes/IMG3843.JPG','imagenes/BASE.jpg')">
+ 
+ <div data-role="page" id="principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn-text="Regresar"  data-back-btn-theme="b">
+     <h1>Base de Datos Simples y Base de Datos Avanzada </h1>
+    </div>
+    <br>
+   
+   
+   
+   
+<div data-role="main" class="ui-content" align="center">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>¿Que es una BD?</h1>
+         <div>
+         <h4>   BD </h4>
+           <p>Una base de datos es una colección de información organizada de forma que un programa de ordenador pueda seleccionar rápidamente los fragmentos de datos que necesite. Una base de datos es un sistema de archivos electrónico.
+
+Las bases de datos tradicionales se organizan por campos, registros y archivos. Un campo es una pieza única de información; un registro es un sistema completo de campos; y un archivo es una colección de registros. Por ejemplo, una guía de teléfono es análoga a un archivo. Contiene una lista de registros, cada uno de los cuales consiste en tres campos: nombre, dirección, y número de teléfono. </p>
+           <br>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/BASE.jpg',1)"><img src="imagenes/BD.jpg" width="300" height="300" id="Image33"></a><br>
+       </div>
+          <div> 
+</div>
+          <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.dgeti.sep.gob.mx/"data-role="button" id="beep">
+            <h3>Quiénes Somos</h3>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+      </div>
+      <br>
+ <div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Forma parte del CBTis16 </h2>
+            </a>
+          </li>
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Programación </h2>
+                <p align="center">Se muestra el contenido de la carrera</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#Pagina13" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Logística </h2>
+                <p align="center">Se muestra el contenido de la carrera</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#Pagina14" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Electricidad </h2>
+                <p align="center">Se muestra el contenido de la carrera</p>
+            </a>
+          </li>
+          <li class="ui-first-child ui-last-child">
+            <a href="#Pagina15" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Mecánica Industrial </h2>
+                <p align="center">Se muestra el contenido de la carrera</p>
+            </a>
+          </li>
+         
+     
+        
+          </ul>
+          </div>
+    
+    
+  
+        
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Galería </h2>
+                </a>
+                </li>
+        
+          </ul>
+          </div>
+          
+                  <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="https://es-la.facebook.com/cbtis16atlixco/" data-role="button" id="beep">
+            <h4>Página de Facebook <br>CBTis16</h4>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <br>
+        
+                  <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.cbtis016.edu.mx/" data-role="button" id="beep">
+            <h3>Sito Web <br>CBTis16</h3>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+          
+            <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.cbtis016.edu.mx/index.php/plantel/ubicacion-del-plantel" data-role="button" id="beep">
+            <h3>Ubicación</h3>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center">Acerca del Desarrollador </h2>
+                <p align="center">Muestra Información acerca del Desarrollador</p>
+           
+            </a>
+          </li>
+          </ul>
+          
+     
+  
+                <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                  <div>
+                    <img src="res/android/mdpi.png" width="46" height="46"> </div>
+                    <div>
+                      <h4> Proyecto Final </h4>
+                      <h4> Flores de los Santos Maria Juana</h4>
+                  </div>
+   </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+                    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                      <h1 align="center"> CBTis 16</h1>
+     </div>
+     <div data-role="content" align="left">
+               <div data-role="collapsible" data-content-theme="false">
+       <h1 >Requisitos</h1>
+       
+         <div>
+         <img src="imagenes/fichas2017.jpg" width="100%" height="auto">
+         <br>
+          </div>
+          </div>
+          
+          <div data-role="collapsible" data-content-theme="false">
+       <h1 >Espacios que ofrece </h1>
+       
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3141','','imagenes/muestra3.JPG',1)"><img src="imagenes/received_1208076409304302.jpeg" width="100%" height="auto" id="Image3141"></a><br>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+       <h1 >Oferta Eductiva</h1>
+       
+         <div>
+        <img src="imagenes/cartecbtis.jpg"  width="100%" height="auto">
+        
+        <br>
+          </div>
+          </div>
+          <div data-role="collapsible" data-content-theme="false">
+       <h1 >Sistema de BECAS </h1>
+       
+       <p>En esta sección se describen los diferentes tipos de becas que otorga la Secretaría de Educación Pública (SEP) a través de la Subsecretaría de Educación Media Superior (SEMS)</p>
+       <h1><strong>GOBIERNO FEDERAL</strong></h1>
+<ul>
+
+
+ <li>Supervisa el proceso de suministrio de bienes.</li>
+
+
+<li>EXCELENCIA PROMEDIO</li>
+<li>INGRESO</li>
+<li>PERMANENCIA</li>
+<li>SALARIO PRÁCTICAS PROFESIONALES</li>
+<li>CONTRA EL ABANDONO ESCOLAR </li>
+
+</ul>
+                    <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.becasmediasuperior.sep.gob.mx/"data-role="button" id="beep">
+            <h3>Portal oficial</h3>
+                         </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+             
+ <h1><strong>GOBIERNO ESTATAL</strong></h1>
+  
+<ul>
+
+
+<li>OPORTUNIDADES</li>
+
+</ul>
+
+
+                    <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.gob.mx/prospera"data-role="button" id="beep">
+            <h3>Portal oficial</h3>
+                   </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+
+       
+         
+         
+         
+          </div>
+              <br>
+              
+                    <div data-role="main" class="ui-content" align="center">
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="http://www.cbtis016.edu.mx/index.php/estudiantes/nuevo-ingreso"data-role="button" id="beep">
+            <h3>Más Información</h3>
+            </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+      </div>
+      <br>
+          <h1 align="center"><strong>Para mayores informes favor de acudir al departamento de Servicios Escolares</strong></h1>
+         
+          
+ <div data-role="footer" data-theme="b" data-position="fixed">
+                        <h4>Proyecto Final</h4>
+                  <h4> Flores de los Santos Maria Juana</h4>
+   </div>
+ </div>
+                      </div>
+                      </div>
+ <div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Técnico en Programación</h1>
+     </div>  
+     <div data-role="content" align="left">
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Técnico en Programación </h2>
+           <p align="center">Se muestran las competencias y el Mapa Curricular</p>
+            </a>
+          </li>
+                  <li class="ui-first-child ui-last-child">
+            <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Perfil de Egreso </h2>
+           <p align="center">Se muestra el Perfil de Egreso de Técnico en Programación</p>
+            </a>
+          </li>
+          </ul>
+          </div>
+       <br>
+            <div data-role="collapsible" data-content-theme="false">
+       <h1>Oportunidades de Insercción Laboral</h1>
+         <div>
+          <h4><strong>Insercción Laboral</strong></h4>
+          <div align="left">
+            <ul>
+              <li>Desarrolladores de software</li>
+              <li>Analistas de sistemas</li>
+              <li>Analista de programas de cómputo</li>
+              <li>Programador de sistemas de cómputo</li>
+              <li>Edición de software y edición de software integrada con la reproducción</li>
+              <li>Escuelas de computación del sector privado</li>
+              <li>Servicios de diseño de sistemas de cómputo y servicios relacionados</li>
+              <li>Escuelas de computación del sector público</li>
+            </ul>
+            <br>
+          </div>
+          </div>
+        </div>
+        <br>
+     
+     
+     
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                    <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           </div>
+                      
+                      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>Técnico en Programación</h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+         </div>
+         <div>
+         <h1><strong>COMPETENCIAS PROFESIONALES</strong>
+         </h1>
+         
+       <img src="imagenes/compeprog (1).jpg" width="100%" height="auto"> 
+       </div>
+                <div>
+         <h1><strong>MAPA CURRICULAR</strong>
+         </h1>
+         
+       <img src="imagenes/curriculaprogra (1).jpg" width="100%" height="auto"> 
+       </div>
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Perfil de Egreso</h1>
+     </div>  
+     <div data-role="content" align="left">
+ <h1><strong>PERFIL DE EGRESO</strong></h1>
+<ul>
+<p>La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la:</p>
+
+<li>Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con almacenamiento persistente de datos.
+</li>
+<li>Así como la configuración y administración de plataforma e-learning y Comercio electrónico.</li>
+</ul>
+</div>
+     <div data-role="content" align="center">
+                          
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+                           </div>
+ </div>
+                           </div>
+                           
+ <div data-role="page" id="Pagina13" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Técnico en Logística</h1>
+     </div>  
+     <div data-role="content" align="left">
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Técnico en Logística </h2>
+           <p align="center">Se muestran las competencias y el Mapa Curricular</p>
+            </a>
+          </li>
+                  <li class="ui-first-child ui-last-child">
+            <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Perfil de Egreso </h2>
+           <p align="center">Se muestra el Perfil de Egreso de Técnico en Logística</p>
+            </a>
+          </li>
+          </ul>
+          </div>
+       <br>
+            <div data-role="collapsible" data-content-theme="false">
+       <h1>Oportunidades de Insercción Laboral</h1>
+         <div>
+          <h4><strong>Insercción Laboral</strong></h4>
+          <div align="left">
+            <ul>
+
+              <li>uestro país presenta una amplia diversidad de procesos de producción, desde los que utilizan tecnología moderna, hasta sistemas tradicionales; este hecho contribuye a diversificar las ocupaciones, los Comités interinstitucionales de Formación Profesional decidieron utilizar los siguientes: Sectores industriales, comerciales y de servicios, públicos o privados: Escuelas, constructoras, fábricas, centros comerciales, hospitales, inmobiliarias, hoteles, instituciones de crédito, despachos contables y tiendas de autoservicio. Autoempleo</li>
+            </ul>
+            <br>
+          </div>
+          </div>
+        </div>
+        <br>
+     
+     
+     
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                      <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           </div>
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>Técnico en Logística</h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+         </div>
+         <div>
+         <h1><strong>COMPETENCIAS PROFESIONALES</strong>
+         </h1>
+         
+       <img src="imagenes/log.jpg" width="100%" height="auto"> </div>
+                <div>
+         <h1><strong>MAPA CURRICULAR</strong>
+         </h1>
+         
+       <img src="imagenes/logmap.jpg" width="100%" height="auto"> </div>
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+             <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Perfil de Egreso</h1>
+     </div>  
+     <div data-role="content" align="left">
+ <h1><strong>PERFIL DE EGRESO</strong></h1>
+<ul>
+<p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollara o reforzará las siguientes competencias profesionales:</p>
+
+ <li>Supervisa el proceso de suministrio de bienes.</li>
+<li> Apoya el proceso de administración al servicio de almacenaje de bienes.</li>
+ <li>Organiza el transporte de mercancías. </li>
+<li>Proveve servicio de atencion al cliente sbre los movimientos de logística. Organiza los costos de la cadena logística y de las competencias de productividad y empleabilidad:</li>
+ <li>Atencion al proceso</li>
+<li>Planeación y organización</li>
+<li>Ética profesional</li>
+<li>Comunicación efectiva</li>
+<li>Trabajo en equipo</li>
+<li>Atención al cliente</li>
+<li>Relaciones interpersonales</li>
+</ul>
+</div>
+     <div data-role="content" align="center">
+                          
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                       <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+                           </div>
+ </div>
+                           </div>
+ <div data-role="page" id="Pagina14" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Técnico en Electricidad</h1>
+     </div>  
+     <div data-role="content" align="left">
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Técnico en Electricidad </h2>
+           <p align="center">Se muestran las competencias y el Mapa Curricular</p>
+            </a>
+          </li>
+                  <li class="ui-first-child ui-last-child">
+            <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Perfil de Egreso </h2>
+           <p align="center">Se muestra el Perfil de Egreso de Técnico en Electricidad</p>
+            </a>
+          </li>
+          </ul>
+          </div>
+       <br>
+            <div data-role="collapsible" data-content-theme="false">
+       <h1>Oportunidades de Insercción Laboral</h1>
+         <div>
+          <h4><strong>Insercción Laboral</strong></h4>
+          <div align="left">
+            <ul>
+
+              <li>Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social.</li>
+            </ul>
+            <br>
+          </div>
+          </div>
+        </div>
+        <br>
+     
+     
+     
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                            <h4>Proyecto Final</h4>
+                <h4> Flores de los Santos Maria Juana</h4>
+   </div>
+ </div>
+                           </div>
+                           </div>
+
+                           
+ 
+                           
+                           
+                           
+                           
+                           
+                           
+ <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>Técnico en Electricidad</h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+         </div>
+         <div>
+         <h1><strong>COMPETENCIAS PROFESIONALES</strong>
+         </h1>
+         
+       <img src="imagenes/elec.JPG" width="100%" height="auto"> 
+       </div>
+                <div>
+         <h1><strong>MAPA CURRICULAR</strong>
+         </h1>
+         
+       
+       <img src="imagenes/elemap.JPG" width="100%" height="auto"> 
+       </div>
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                 <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Perfil de Egreso</h1>
+     </div>  
+     <div data-role="content" align="left">
+ <h1><strong>PERFIL DE EGRESO</strong></h1>
+<ul>
+<p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.</p>
+
+
+ <li>Desarrolla instalaciones eléctricas residenciales y comerciales.</li>
+<li> Mantiene los motores y generadores de CA y CC.</li>
+<li> Mantiene en operación los circuitos de control electromagnético y electrónico.</li>
+ <li>Mantiene los sistemas de iluminación y de energía renovable.</li>
+<li> Mantiene instalaciones eléctricas de media y baja tensión.</li>
+</ul>
+</div>
+     <div data-role="content" align="center">
+                          
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                   <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+                           </div>
+ </div>
+                           </div>
+ <div data-role="page" id="Pagina15" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Técnico en Mecánica Industrial</h1>
+     </div>  
+     <div data-role="content" align="left">
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Técnico en Mecánica Industrial </h2>
+           <p align="center">Se muestran las competencias y el Mapa Curricular</p>
+            </a>
+          </li>
+                  <li class="ui-first-child ui-last-child">
+            <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2 align="center"> Perfil de Egreso </h2>
+           <p align="center">Se muestra el Perfil de Egreso de Técnico en Mecánica Industrial</p>
+            </a>
+          </li>
+          </ul>
+          </div>
+       <br>
+            <div data-role="collapsible" data-content-theme="false">
+       <h1>Oportunidades de Insercción Laboral</h1>
+         <div>
+          <h4><strong>Insercción Laboral</strong></h4>
+          <div align="left">
+            <ul>
+
+              <li>Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.</li>
+            </ul>
+            <br>
+          </div>
+          </div>
+        </div>
+        <br>
+     
+     
+     
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                    <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           </div>
+                           
+                           
+                           
+                           
+ <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>Técnico en Mecánica Industrial</h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+         </div>
+         <div>
+         <h1><strong>COMPETENCIAS PROFESIONALES</strong>
+         </h1>
+       <img src="imagenes/mec.jpg" width="100%" height="auto"> 
+       </div>
+                <div>
+         <h1><strong>MAPA CURRICULAR</strong>
+         </h1>
+         
+       
+       <img src="imagenes/mcmap.jpg" width="100%" height="auto"> 
+       </div>
+                         <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+                           </div>
+                           
+ <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1> Perfil de Egreso</h1>
+     </div>  
+     <div data-role="content" align="left">
+ <h1><strong>PERFIL DE EGRESO</strong></h1>
+<ul>
+<p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:</p>
+  <li>Suelda y ajusta piezas mecánicas.</li>
+  <li>Maquina piezas mecánicas en talador y torno.</li>
+  <li>Maquina piezas mecánicas en fresadora, rectificadora y cepillo.</li>
+  <li>Maquina piezas mecánicas por CNC.</li>
+  <li>Mantiene sistemas de transmisión de potencia.</li>
+</ul>
+</div>
+     <div data-role="content" align="center">
+                          
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                       <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+                           </div>
+ </div>
+                           </div>
+ <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="b">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                            <h1>Establecimiento</h1>
+     </div>  
+     <div data-role="content" align="center">
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/cbtis2.jpg" alt="CBTis 16" title="CBTis 16" id="wows2_0"/></li>
+		<li><img src="data2/images/12744030_768052246672561_763795059227247783_n.jpg" alt="Conferencias educativas" title="Conferencias educativas" id="wows2_1"/></li>
+		<li><img src="data2/images/13443254_1071635592904004_4538339798504587172_o.jpg" alt="Galeazzi " title="Galeazzi " id="wows2_2"/></li>
+		<li><img src="data2/images/16730134_993948624082921_1138766240173408827_n.jpg" alt="Acto Civico" title="Acto Civico" id="wows2_3"/></li>
+		<li><img src="data2/images/decide.png" alt="DECIDE" title="DECIDE" id="wows2_4"/></li>
+		<li><img src="data2/images/galeazziberrainauguratechadoencbtis16.jpg" alt="Galeazzi Berra inaugura Techado" title="Galeazzi Berra inaugura Techado" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/logo_001.jpg" alt="wowslider.net" title="Ubicacion" id="wows2_6"/></a></li>
+		<li><img src="data2/images/muestra7.jpg" alt="Eventos civicos" title="Eventos civicos" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="CBTis 16"><span><img src="data2/tooltips/cbtis2.jpg" alt="CBTis 16"/>1</span></a>
+		<a href="#" title="Conferencias educativas"><span><img src="data2/tooltips/12744030_768052246672561_763795059227247783_n.jpg" alt="Conferencias educativas"/>2</span></a>
+		<a href="#" title="Galeazzi "><span><img src="data2/tooltips/13443254_1071635592904004_4538339798504587172_o.jpg" alt="Galeazzi "/>3</span></a>
+		<a href="#" title="Acto Civico"><span><img src="data2/tooltips/16730134_993948624082921_1138766240173408827_n.jpg" alt="Acto Civico"/>4</span></a>
+		<a href="#" title="DECIDE"><span><img src="data2/tooltips/decide.png" alt="DECIDE"/>5</span></a>
+		<a href="#" title="Galeazzi Berra inaugura Techado"><span><img src="data2/tooltips/galeazziberrainauguratechadoencbtis16.jpg" alt="Galeazzi Berra inaugura Techado"/>6</span></a>
+		<a href="#" title="Ubicacion"><span><img src="data2/tooltips/logo_001.jpg" alt="Ubicacion"/>7</span></a>
+		<a href="#" title="Eventos civicos"><span><img src="data2/tooltips/muestra7.jpg" alt="Eventos civicos"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<hr>
+
+ <h1><strong>Techado</strong></h1>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31457','','imagenes/received_1208076599304283.jpeg',1)"><img src="imagenes/Galeazzi-Berra-inaugura-techado-en-CBTIS-16.jpg" width="100%" height="auto" id="Image31457"></a> </div>
+     <div data-role="content" align="center">
+     <h1><strong>Laboratorios</strong></h1>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3175','','imagenes/taller3.JPG',1)"><img src="imagenes/taller2.JPG" width="100%" height="auto" id="Image3175"></a>
+<h1><strong>Áreas</strong></h1>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3144','','imagenes/Áreas Verdes.jpeg',1)"><img src="imagenes/Obra.JPG" width="100%" height="auto" id="Image3144"></a>
+<h1><strong>Áreas Deportivas</strong></h1>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31787','','imagenes/IMG3843.JPG',1)"><img src="imagenes/20170530_130711.jpg" width="100%" height="auto" id="Image31787"></a>
+<div data-role="footer" data-theme="b" data-position="fixed">
+      <h4>Proyecto Final</h4>
+                           </div>
+ </div>
+ </div>
+                           <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                           <h1>Elaborado por:</h1>
+     </div>  
+ <div data-role="content" align="center" >
+         <div>
+         </div>
+         <div>
+         <h1><strong>Nombre:</strong>
+         </h1>
+         
+     <p>  Flores de los Santos Maria Juana </p>
+       </div>
+                <div>
+         <h1><strong>Semestre y Grupo</strong></h1>
+         <p>4° 'G'</p>
+         
+       
+       </div>
+             <div>
+         <h1><strong>Submódulo:</strong></h1>
+         <p>Diseña Aplicaciones móviles</p>
+         
+         
+       
+       </div>
+             <div>
+         <h1><strong>Docente:</strong></h1>
+         <p>Lic. José Antonio Gómez Hernández</p>
+         
+       
+       </div>
+ <div data-role="main" class="ui-content" align="center" >
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="https://www.facebook.com/hebrahd"data-role="button" id="beep">
+            <h3>Facebook del <br>
+            Desarrolador</h3>
+            
+                         </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <br>
+ <div data-role="main" class="ui-content" align="center" >
+          <div style="width:85%;">
+            <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+            <li class="ui-first-child ui-last-child">
+            <a href="https://damcbtis16.milaulas.com/"data-role="button" id="beep">
+            <h3>Plataforma virtual<br> DAM</h3>
+            
+                         </a>
+            </li>
+            </ul>
+            </div>
+            </div>
+            <div>
+            <div>
+              <div data-role="footer" data-theme="b" data-position="fixed">
+             <h4> Flores de los Santos Maria Juana</h4>
+                            <h4>Proyecto Final</h4>
+   </div>
+ </div>
+ </div>
+
+                            
+</head>
+
+<body>
+</body>
+</html>
